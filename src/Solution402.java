@@ -46,8 +46,4 @@ public class Solution402 {
         return res.substring(index).equals("") ? "0":res.substring(index);
     }
 
-    public static void main(String[] args) {
-        Solution402 solution402 = new Solution402();
-        System.out.println(solution402.removeKdigits("10200", 1));
-    }
 }

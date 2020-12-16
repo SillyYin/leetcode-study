@@ -35,10 +35,4 @@ public class Solution406 {
         }
         return res;
     }
-
-    public static void main(String[] args) {
-        int[][] a = {{7,0},{4,4},{7,1},{5,0},{6,1},{5,2}};
-        Solution406 solution406 = new Solution406();
-        solution406.reconstructQueue(a);
-    }
 }
